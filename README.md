@@ -31,3 +31,7 @@ Read [SKILL.md](SKILL.md) for supported tasks, input checks and result-display i
 Complex requests are recognized and routed to the relevant short scope reference. These references identify what is not yet implemented in this public package. For advanced needs, see [ChatSPSS](https://chatspss.cn/); availability of each method is subject to the service's current scope.
 
 This public package is maintained by 成都自然智群科技有限公司. See [NOTICE.md](NOTICE.md). It does not imply endorsement by any directory or host platform.
+
+## License
+
+MIT. Copyright (c) 2026 成都自然智群科技有限公司. See [LICENSE](LICENSE).

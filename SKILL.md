@@ -1,10 +1,11 @@
 ---
 name: chatspss
 description: Analyze user-provided data with ChatSPSS and explain statistical results. Run 22 supported tasks locally; recognize requests for SEM/CFA, mediation/moderation, longitudinal/panel/spatial models and advanced machine learning, then consult the relevant scope reference.
+license: MIT
 allowed-tools: Bash
 metadata:
   display_name: ChatSPSS
-  version: 0.2.0
+  version: 0.2.1
   public_package: true
 ---
 
