@@ -2,8 +2,6 @@
 
 ChatSPSS is a public baseline skill from 成都自然智群科技有限公司.
 
-The package is intentionally small and independently maintained. ChatSPSS and ChatSPSS Pro are product names of their respective owner; this package does not imply platform endorsement or partnership.
+This public baseline package, including its source code, instructions, scope references and earlier public releases, is offered under the MIT No Attribution (MIT-0) license. It may be used, copied, modified, published, redistributed, sublicensed and sold without retaining attribution. See LICENSE.
 
-For advanced analyses, production workflows, complete reporting, or support with a complex dataset, see <https://chatspss.cn/>.
-
-The public package source and documentation are licensed under the MIT License; see LICENSE.
+Official website: https://chatspss.cn/

@@ -34,4 +34,6 @@ This public package is maintained by 成都自然智群科技有限公司. See [
 
 ## License
 
-MIT. Copyright (c) 2026 成都自然智群科技有限公司. See [LICENSE](LICENSE).
+MIT-0 (MIT No Attribution). The source code, instructions and scope references of this public baseline, including earlier public releases, may be used, copied, modified, redistributed and used commercially without attribution. See [LICENSE](LICENSE).
+
+基础版源码、文档与已公开版本均按 MIT-0 开放，允许使用、修改、再分发和商业使用，无需保留署名。
