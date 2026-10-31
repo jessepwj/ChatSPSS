@@ -28,7 +28,7 @@ Read [SKILL.md](SKILL.md) for supported tasks, input checks and result-display i
 
 ## Safe result rendering
 
-Version 0.2.4 displays user-provided labels as literal text, preserving generated statistical emphasis and complete result tables. Input data and output text do not carry execution instructions. Newlines inside table labels are normalized to spaces.
+Version 0.2.4 displays user-provided labels as literal text, preserving generated statistical emphasis and complete result tables. Input data and output text do not carry execution instructions. Newlines inside table labels are normalized to spaces. Version 0.2.5 carries failures explicitly, exits nonzero, and emits escaped errors to stderr; missing-data notices and data labels cannot make a failure count as a successful result table.
 
 ## Scope
 
