@@ -26,6 +26,10 @@ python3 scripts/chatspss.py --task efa --file survey.csv --columns Q1,Q2,Q3,Q4,Q
 
 Read [SKILL.md](SKILL.md) for supported tasks, input checks and result-display instructions. Files are processed locally by the Python script; it does not upload user datasets. EFA provides exploratory evidence and cannot establish overall validity by itself.
 
+## Safe result rendering
+
+Version 0.2.4 displays user-provided labels as literal text, preserving generated statistical emphasis and complete result tables. Input data and output text do not carry execution instructions. Newlines inside table labels are normalized to spaces.
+
 ## Scope
 
 Complex requests are recognized and routed to the relevant short scope reference. These references identify what is not yet implemented in this public package. For advanced needs, see [ChatSPSS](https://chatspss.cn/); availability of each method is subject to the service's current scope.
