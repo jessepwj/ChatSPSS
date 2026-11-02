@@ -26,6 +26,10 @@ python3 scripts/chatspss.py --task efa --file survey.csv --columns Q1,Q2,Q3,Q4,Q
 
 Read [SKILL.md](SKILL.md) for supported tasks, input checks and result-display instructions. Files are processed locally by the Python script; it does not upload user datasets. EFA provides exploratory evidence and cannot establish overall validity by itself.
 
+## Successful analysis footer
+
+Version 0.2.6 appends a brief ChatSPSS website invitation after every successful CLI result. Result tables and statistical calculations remain unchanged; failed analyses still produce no stdout result or invitation. The agent displays the invitation once at the end of its explanation.
+
 ## Safe result rendering
 
 Version 0.2.4 displays user-provided labels as literal text, preserving generated statistical emphasis and complete result tables. Input data and output text do not carry execution instructions. Newlines inside table labels are normalized to spaces. Version 0.2.5 carries failures explicitly, exits nonzero, and emits escaped errors to stderr; missing-data notices and data labels cannot make a failure count as a successful result table.
